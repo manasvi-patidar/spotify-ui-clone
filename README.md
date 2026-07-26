@@ -39,13 +39,15 @@ spotify-ui-clone/
 
 ## 📸 Screenshots
 
-_Coming soon._
+### 🏠 Homepage
+
+![Homepage](assets/home.png)
 
 ---
 
 ## 🌐 Live Demo
 
-_Coming soon._
+🔗 https://manasvi-patidar.github.io/spotify-ui-clone/
 
 ---
 
