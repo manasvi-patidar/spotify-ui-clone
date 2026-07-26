@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                    <img src="./assets/library_icon.png">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>   
+            </div>
+
+            <h2>Global Pop Hits</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card01.jpeg" class="card-img">
+                    <p class="card-title">Midnight Vibes</p>
+                    <p class="card-info">Billie Eilish, Lana Del Rey, Lorde</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card52.jpeg" class="card-img">
+                    <p class="card-title">Summer Pop Essentials</p>
+                    <p class="card-info">Sabrina Carpenter, Olivia Rodrigo, Tate McRae</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card10.jpeg" class="card-img">
+                    <p class="card-title">Pop Queens Daily</p>
+                    <p class="card-info">Selena Gomez, Dua Lipa, Camila Cabello</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card11.jpeg" class="card-img">
+                    <p class="card-title">Todays's Pop Favourites</p>
+                    <p class="card-info">Justin Bieber, Shawn Mendes, Charlie Puth</p>
+                </div>
+            </div>
+
+            <h2>Trending Worldwide</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card02.jpeg" class="card-img">
+                    <p class="card-title">Global Rap Hit</p>
+                    <p class="card-info">Drake, Travis Scott, Future</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card03.jpeg" class="card-img">
+                    <p class="card-title">After Hours Radio</p>
+                    <p class="card-info">The Weekend, Post Malone, Doja Cat</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card05.jpeg" class="card-img">
+                    <p class="card-title">Viral Hits 2025</p>
+                    <p class="card-info">Tyla, Arya Starr, Tems</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card12.jpeg" class="card-img">
+                    <p class="card-title">Afrobeat Rising</p>
+                    <p class="card-info">Omah Lay, Burna Boy, Rema</p>
+                </div>
+            </div>
+       
+            <h2>African Heat</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card04.jpeg" class="card-img">
+                    <p class="card-title">Afro Pop Essentials</p>
+                    <p class="card-info">Arya Star, Tems, Tyla</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card53.jpeg" class="card-img">
+                    <p class="card-title">Dancefloor Africa</p>
+                    <p class="card-info">Tyla, Arya Starr, Uncle Waffles</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card54.jpeg" class="card-img">
+                    <p class="card-title">Afro Vibes Tonight</p>
+                    <p class="card-info">Omah Lay, Burna Boy, Wizkid</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card07.jpeg" class="card-img">
+                    <p class="card-title">Soulful Afro Mix</p>
+                    <p class="card-info">Libianca, Tems, Omah Lay</p>
+                </div>
+            </div>
+
+            <h2>Rising Female Voices</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card17.jpeg" class="card-img">
+                    <p class="card-title">Doja Cat</p>
+                    <p class="card-info">Paint The Town Red</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card18.jpeg" class="card-img">
+                    <p class="card-title">Arya Starr</p>
+                    <p class="card-info">Rush</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card19.jpeg" class="card-img">
+                    <p class="card-title">Coco Jones</p>
+                    <p class="card-info">Here We Go</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card56.jpeg" class="card-img">
+                    <p class="card-title">Latto</p>
+                    <p class="card-info">Big Energy</p>
+                </div>
+            </div>
+
+            <h2>Fresh Releases</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card06.jpeg" class="card-img">
+                    <p class="card-title">Fresh Pop Friday</p>
+                    <p class="card-info">New pop releases by Sabrina Car...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card55.jpeg" class="card-img">
+                    <p class="card-title">New Music Radar</p>
+                    <p class="card-info">Fresh tracks this week</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card57.jpeg" class="card-img">
+                    <p class="card-title">Die with A Smile</p>
+                    <p class="card-info">By Lady Gaga and Bruno Mars</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card32.jpeg" class="card-img">
+                    <p class="card-title">Birds Of A Feather</p>
+                    <p class="card-info">newly released by Billie Eilish</p>
+                </div>
+            </div>
+
+            <h2>Editor's Picks</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card39.jpeg" class="card-img">
+                    <p class="card-title">Pop Mix</p>
+                    <p class="card-info">Your daily dose of feel-good hits.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card40.jpeg" class="card-img">
+                    <p class="card-title">2020s Mix</p>
+                    <p class="card-info">The defining sounds of the decade so far.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card41.jpeg" class="card-img">
+                    <p class="card-title">Afrobeats Essentials</p>
+                    <p class="card-info">The hottest rhythms from  Africa and beyond.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card42.jpeg" class="card-img">
+                    <p class="card-title">Pop Remixes</p>
+                    <p class="card-info">Fresh remixes, club edits, and nonstop energy.</p>
+                </div>
+            </div>
+
+            <h2>Party Starters</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card43.jpeg" class="card-img">
+                    <p class="card-title">Beach Party</p>
+                    <p class="card-info">Summer anthems</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card44.jpeg" class="card-img">
+                    <p class="card-title">80s Party</p>
+                    <p class="card-info">Retro Dance Classics</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card45.jpeg" class="card-img">
+                    <p class="card-title">Pop Party</p>
+                    <p class="card-info">Crowd favorites</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card46.jpeg" class="card-img">
+                    <p class="card-title">Halloween Party</p>
+                    <p class="card-info">Spooky season hits</p>
+                </div>
+            </div>
+
+            <h2>Chill & Relax</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card09.jpeg" class="card-img">
+                    <p class="card-title">Late Night Stories</p>
+                    <p class="card-info">Alec Benjamin, Conan Gray, Jeremy Zucker</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card08.jpeg" class="card-img">
+                    <p class="card-title">Emotional Escape</p>
+                    <p class="card-info">Sia, Pink, Kelly Clarkson</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card51.jpeg" class="card-img">
+                    <p class="card-title">Quiet Hours</p>
+                    <p class="card-info">Billie Eilish, Finneas, Lana Del Rey</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card33.jpeg" class="card-img">
+                    <p class="card-title">Midnight Escape</p>
+                    <p class="card-info">The Weekend, Brent Faiyaz, Giveon</p>
+                </div>
+            </div>
+
+            <h2>More Like Tyla</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card13.jpeg" class="card-img">
+                    <p class="card-title">Normani</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card14.jpeg" class="card-img">
+                    <p class="card-title">Summer Walker</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card15.jpeg" class="card-img">
+                    <p class="card-title">Chloe</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card16.jpeg" class="card-img">
+                    <p class="card-title">Victoria Monet</p>
+                    <p class="card-info">Artist</p>
+                </div>
+            </div>
+
+            <h2>Mood Mixes</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card28.jpeg" class="card-img">
+                    <p class="card-title">Love Notes</p>
+                    <p class="card-info">Romantic favorites and dreamy pop hits. Perfect for every mood and moment.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card29.jpeg" class="card-img">
+                    <p class="card-title">All-Time Favorites</p>
+                    <p class="card-info">The songs you always come back to. Timeless tracks you'll never skip.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card30.jpeg" class="card-img">
+                    <p class="card-title">Youth Memories</p>
+                    <p class="card-info">Nostalgic anthems and carefree vibes. Soundtrack for growing up and looking back.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card31.jpeg" class="card-img">
+                    <p class="card-title">Feel Good Radio</p>
+                    <p class="card-info">A mix of uplifting hits and hidden gems. Press play and let the music flow.</p>
+                </div>
+            </div>
+
+            <h2>Fitness Favourites</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card25.jpeg" class="card-img">
+                    <p class="card-title">Workout Essentials</p>
+                    <p class="card-info">High-energy tracks to keep you moving.Built for every training session.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card26.jpeg" class="card-img">
+                    <p class="card-title">Gym Hits</p>
+                    <p class="card-info">Push through every set with confidence.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card27.jpeg" class="card-img">
+                    <p class="card-title">Cardio Burn</p>
+                    <p class="card-info">Fast-pased tracks for running.Stay in rhythm from start to finish.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card58.jpeg" class="card-img">
+                    <p class="card-title">Beast Mode</p>
+                    <p class="card-info">Intense motivation for your toughest workouts.No excuses, just results.</p>
+                </div>
+            </div>
+
+            <h2>Global Chart Toppers</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card35.jpeg" class="card-img">
+                    <p class="card-title">Today's Top Hits</p>
+                    <p class="card-info">The world's biggest songs right now. Updated regularly with the hottest tracks.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card36.jpeg" class="card-img">
+                    <p class="card-title">Hot Hits UK</p>
+                    <p class="card-info">The UK's most streamed songs and rising favorites. Fresh updates ever week.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card37.jpeg" class="card-img">
+                    <p class="card-title">Pop Shots</p>
+                    <p class="card-info">The latest pop anthems and viral chart climbers. Your pop fix starts here.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card38.jpeg" class="card-img">
+                    <p class="card-title">All Out 20s</p>
+                    <p class="card-info">Defining hits of the 2020s. The songs shaping this generation.</p>
+                </div>
+            </div>
+
+            <h2>Podcasts You Might Like</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card24.jpeg" class="card-img">
+                    <p class="card-title">Figuring Out with Raj Shamani</p>
+                    <p class="card-info">Business insights and inspiring conversations with industry leaders.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card34.jpeg" class="card-img">
+                    <p class="card-title">The Mel Robbins Podcast</p>
+                    <p class="card-info">Practical advice for confidence, productivity, and personal growth.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card59.jpeg" class="card-img">
+                    <p class="card-title">The Psychology of your 20s</p>
+                    <p class="card-info">Navigating relationships, careers, and self-discovery in your twenties.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card60.jpeg" class="card-img">
+                    <p class="card-title">The Desi-Crime Podcast</p>
+                    <p class="card-info">Real crime stories and investigations from South Asia.</p>
+                </div>
+            </div>
+
+            <h2>Recommended Stations</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card20.jpeg" class="card-img">
+                    <p class="card-title">Playlist</p>
+                    <p class="card-info">Tems, Wizkid, Tyla, Davido, Ruger</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card21.jpeg" class="card-img">
+                    <p class="card-title">Playlist</p>
+                    <p class="card-info">David Guetta, Dua Lipa, THe Chainsmokers, Hals...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card22.jpeg" class="card-img">
+                    <p class="card-title">Playlist</p>
+                    <p class="card-info">Rihanna, Ariana Grande, Ed Sheeran, Calvin Harris, Khalid, Sha...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card23.jpeg" class="card-img">
+                    <p class="card-title">Playlist</p>
+                    <p class="card-info">Billie Eilish, Olivia Rodrigo, Christina Perri, Katy Per...</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card47.jpeg" class="card-img">
+                    <p class="card-title">Top 50 Global</p>
+                    <p class="card-info">Most played tracks worldwide</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card48.jpeg" class="card-img">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">India's biggest hits</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card49.jpeg" class="card-img">
+                    <p class="card-title">Top Songs USA</p>
+                    <p class="card-info">Trending in the United States</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card50.jpeg" class="card-img">
+                    <p class="card-title">Top Songs UK</p>
+                    <p class="card-info">The UK's hottest tracks</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+
+        </div>
+        <div class="music-player">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls"></div>
+        </div>
+    </div>
+</body>
+</html>
